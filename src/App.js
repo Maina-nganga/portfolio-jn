@@ -7,10 +7,11 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Project from './components/Project'
 import "./App.css"
+import { ThemeProvider } from './ThemeContext';
 
 function App() {
   return (
-    
+    <ThemeProvider>
      <Router>
     <Navbar />
     <Routes>
@@ -21,6 +22,7 @@ function App() {
       <Route path="/Contacts" element={<Contact />} />
     </Routes> 
   </Router>
+  </ThemeProvider>
   
  
   

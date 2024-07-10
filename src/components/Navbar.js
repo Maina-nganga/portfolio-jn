@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useContext } from 'react';
+import ThemeContext from '../ThemeContext';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import logo from "../ASsets/download.png";
+import { FaRegMoon } from "react-icons/fa6";
 
 function Navbar() {
+  const { toggleTheme } = useContext(ThemeContext);
   return (
     <div>
-      <nav className="flex items-center justify-between px-1">
+      <nav className="flex items-center justify-between ">
         <div>
           <img src={logo} alt="logo" className="w-40" />
         </div>
-        <div>
-          <ul className="flex items-center gap-10 mr-20">
+        <div className='flex'>
+          <ul className="flex items-center gap-10 mr-10">
             {['Home', 'About', 'Services', 'Projects', 'Contacts'].map((item) => (
               <motion.li
                 key={item}
@@ -26,7 +29,9 @@ function Navbar() {
               </motion.li>
             ))}
           </ul>
+          <FaRegMoon  onClick={toggleTheme}  />
         </div>
+        
       </nav>
     </div>
   );

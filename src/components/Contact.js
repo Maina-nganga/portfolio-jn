@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="w-full md:w-7/12 text-center">
           <h1 className="text-6xl font-bold text-gray-900 mb-4">Contact</h1>
           <h2 className="text-2xl font-semibold text-gray-700 mb-4">Contact Me</h2>
-          <p className="text-gray-600">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          <p className="text-gray-600">Seeking a proficient developer with expertise in using Visual Studio Code for source control management, capable of efficiently handling Git operations, including cloning, initializing, staging, committing, pushing, pulling, branching, and merging repositories, along with resolving conflicts and utilizing advanced extensions such as GitLens for enhanced functionality.Look no further!</p>
         </div>
       </div>
 

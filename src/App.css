@@ -9,4 +9,63 @@ h1 {
   body{
     background-color:"#ecf0f3";
   }
+
+  :root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
   
+  [data-theme='dark'] {
+    --background-color: #62645D;
+    --text-color: #ffffff;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Additional styling for buttons, etc. */
+  button {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+  }
+  
+  button:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+  }
+  
+  /* App.css */
+
+nav {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  }
+
+  .about {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    }
+
+     
