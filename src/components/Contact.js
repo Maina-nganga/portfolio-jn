@@ -45,7 +45,7 @@ const Contact = () => {
               <span className="text-2xl">🌐</span>
             </div>
             <h3 className="text-xl font-semibold mb-4">Website</h3>
-            <a href="#" className="text-blue-500 hover:underline">Jmnportfolio.com</a>
+            <a href="/#" className="text-blue-500 hover:underline">Jmnportfolio.com</a>
           </div>
         </div>
       </div>
