@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 import React from "react";
-import Image from "../ASsets/githubprof.png"; // Relative path for better maintainability
+import Image from "../assets/githubprof.png"; // Relative path for better maintainability
 
 function Home() {
   return (
 
-    <div className="flex">
+    <div className="flex" >
       {/* Left Column */}
       <div className="flex-1 flex flex-col items-center justify-center space-y-4">
         <h3 className="text-center text-2xl">Hello! there</h3>

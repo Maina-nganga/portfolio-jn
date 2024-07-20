@@ -15,7 +15,7 @@ function Navbar() {
         </div>
         <div className='flex'>
           <ul className="flex items-center gap-10 mr-10">
-            {['Home', 'About', 'Services', 'Projects', 'Contacts'].map((item) => (
+            {['Home', 'About', 'Services', 'Contacts'].map((item) => (
               <motion.li
                 key={item}
                 className="relative"
