@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import React from "react";
-import Image from "../assets/githubprof.png"; // Relative path for better maintainability
+import Image from "/home/huey/Documents/portfolio-jn/src/assets/githubprof.png"; // Relative path for better maintainability
 
 function Home() {
   return (
